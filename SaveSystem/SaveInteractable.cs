@@ -9,8 +9,9 @@ public class SaveInteractable : SaveableObject
 
     public override SaveableObjectData CreateSaveData()
     {
+        Vector2 worldPos = transform.position;
         bool wasInteractedWith = gameObject.GetComponent<IInteractable>().WasInteractedWith;
-        InteractableData data = new InteractableData(gameObject, PrefabId, objectType, wasInteractedWith);
+        InteractableData data = new InteractableData(gameObject, worldPos, PrefabId, objectType, wasInteractedWith);
         return data;
     }
 }
@@ -31,7 +32,7 @@ public class InteractableData : SaveableObjectData
         interactable.LoadState(wasInteractedWith);
     }
 
-    public InteractableData(GameObject obj, string id, PrefabType type, bool state) : base(obj, id, type)
+    public InteractableData(GameObject obj, Vector2 worldPos, string id, PrefabType type, bool state) : base(obj, worldPos, id, type)
     {
         wasInteractedWith = state;
     }

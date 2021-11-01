@@ -57,7 +57,7 @@ public class ConsumableItemsBuffs : MonoBehaviour
             case ConsumableEffect.Healing:
                 {
                     RestoreHealth(((HealingItem)item).AmountHealed);
-                    player.Sounds.PlayerBuffUse.Play(transform.position);
+                    player.Sounds.PlayerHealing.Play(transform.position);
                     return;
                 }
 

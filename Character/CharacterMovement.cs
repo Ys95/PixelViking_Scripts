@@ -87,7 +87,7 @@ public class CharacterMovement : MonoBehaviour
 
     void ReduceLandingVelocity()
     {
-        Vector2 newVelocity = new Vector2(characterRigidbody.velocity.x, characterRigidbody.velocity.y / 4f);
+        Vector2 newVelocity = new Vector2(characterRigidbody.velocity.x, characterRigidbody.velocity.y/20f);
         characterRigidbody.velocity = newVelocity;
     }
 

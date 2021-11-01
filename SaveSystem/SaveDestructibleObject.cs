@@ -9,7 +9,8 @@ public class SaveDestructibleObject : SaveableObject
 
     public override SaveableObjectData CreateSaveData()
     {
-        DestructibleObjectData data = new DestructibleObjectData(gameObject, PrefabId, objectType);
+        Vector2 worldPos = transform.position;
+        DestructibleObjectData data = new DestructibleObjectData(gameObject, worldPos, PrefabId, objectType);
         return data;
     }
 }
@@ -22,7 +23,7 @@ public class DestructibleObjectData : SaveableObjectData
         obj.transform.parent = parent;
     }
 
-    public DestructibleObjectData(GameObject obj, string id, PrefabType type) : base(obj, id, type)
+    public DestructibleObjectData(GameObject obj, Vector2 worldPos, string id, PrefabType type) : base(obj, worldPos, id, type)
     {
     }
 }

@@ -83,6 +83,8 @@ public class SaveAndLoadMenu : MonoBehaviour
 
     public void SaveBtnClick()
     {
+        if (selectedSlot == -1) return;
+
         savePopup.SetActive(true);
     }
 

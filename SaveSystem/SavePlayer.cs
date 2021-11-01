@@ -8,11 +8,11 @@ public class SavePlayer : SaveableObject
     public override SaveableObjectData CreateSaveData()
     {
         int hp = player.Stats.Health;
-        Vector3 pos = this.gameObject.transform.position;
+        Vector2 worldPos = transform.position;
 
         InventorySaveData inventory = player.PlayerInventory.Inventory.CreateInventorySaveData();
 
-        PlayerData data = new PlayerData(gameObject, hp, SceneManager.GetActiveScene().buildIndex, inventory, objectType);
+        PlayerData data = new PlayerData(gameObject, worldPos, hp, SceneManager.GetActiveScene().buildIndex, inventory, objectType);
 
         return data;
     }
@@ -26,9 +26,9 @@ public class SavePlayer : SaveableObject
 [System.Serializable]
 public class PlayerData : SaveableObjectData
 {
-    [SerializeField] private int level;
-    [SerializeField] private int health;
-    [SerializeField] private InventorySaveData inventory;
+    [SerializeField] int level;
+    [SerializeField] int health;
+    [SerializeField] InventorySaveData inventory;
 
     #region Getters
 
@@ -54,7 +54,7 @@ public class PlayerData : SaveableObjectData
         player.GetComponent<PlayerInventory>().Inventory.LoadInventory(inventory);
     }
 
-    public PlayerData(GameObject obj, int hp, int lvl, InventorySaveData inv, PrefabType type) : base(obj, "Player", type)
+    public PlayerData(GameObject obj, Vector2 worldPos, int hp, int lvl, InventorySaveData inv, PrefabType type) : base(obj, worldPos, "Player", type)
     {
         health = hp;
         level = lvl;

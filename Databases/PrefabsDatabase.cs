@@ -35,10 +35,10 @@ public class PrefabsDatabase : ScriptableObject
     [System.Serializable]
     class PrefabInfo
     {
-        [SerializeField] private GameObject prefab;
-        [SerializeField] private string prefabName;
-        [SerializeField] private string prefabId;
-        [SerializeField] private PrefabType prefabType;
+        [SerializeField] GameObject prefab;
+        [SerializeField] string prefabName;
+        [SerializeField] string prefabId;
+        [SerializeField] PrefabType prefabType;
 
         public GameObject Prefab { get => prefab; }
         public string PrefabName { get => prefabName; }

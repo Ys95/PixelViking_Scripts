@@ -2,6 +2,13 @@ using UnityEngine;
 
 public class SavePickup : SaveableObject
 {
+    [SerializeField] Vector2 spawnPos;
+
+    void OnValidate()
+    {
+        spawnPos = transform.position;
+    }
+
     public SavePickup()
     {
         objectType = PrefabType.Pickup;
@@ -9,8 +16,13 @@ public class SavePickup : SaveableObject
 
     public override SaveableObjectData CreateSaveData()
     {
-        Vector3 pos = this.gameObject.transform.position;
-        PickupData pickupData = new PickupData(gameObject, PrefabId, objectType);
+        if(spawnPos==null)
+        {
+            Debug.LogError(name + " has no set spawn position!");
+            return null;
+        }
+
+        PickupData pickupData = new PickupData(gameObject, spawnPos, PrefabId, objectType);
 
         return pickupData;
     }
@@ -24,7 +36,7 @@ public class PickupData : SaveableObjectData
         obj.transform.parent = parent;
     }
 
-    public PickupData(GameObject obj, string id, PrefabType type) : base(obj, id, type)
+    public PickupData(GameObject obj, Vector2 worldPos, string id, PrefabType type) : base(obj, worldPos, id, type)
     {
     }
 }

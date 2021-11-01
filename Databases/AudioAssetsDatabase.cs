@@ -45,6 +45,9 @@ public enum SoundEffect
     misc_Bounce,
 
     player_Landing,
+
+    misc_ChainCatch,
+    misc_TimeSlowDown,
 }
 
 [CreateAssetMenu(fileName = "audioAssetsDatabase_name", menuName = "Resources Database/AudioAssetDatabase")]

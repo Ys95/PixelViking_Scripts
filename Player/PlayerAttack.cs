@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] int usedStamina;
     [SerializeField] float attackRange;
     [SerializeField] LayerMask targetLayers;
+    [SerializeField] LayerMask projectilesLayer;
 
     bool IsAttackPossible()
     {
@@ -33,7 +35,7 @@ public class PlayerAttack : MonoBehaviour
     public void PrepareAttack()
     {
         if (!IsAttackPossible()) return;
-
+        Invoke(nameof(EndAttack), 0.3f);
         player.Status.IsAttacking = true;
 
         if (player.Combo.IsComboReady)
@@ -41,10 +43,27 @@ public class PlayerAttack : MonoBehaviour
             PrepareComboAttack();
             return;
         }
+        player.Combo.InterruptCombo();
 
+        StartCoroutine(ProjectileDeflectWindow());
         player.Animations.TriggerAttack();
         player.Sounds.PlayerAttack.Play(transform.position);
         player.Stamina.UseStamina(usedStamina);
+    }
+
+    IEnumerator ProjectileDeflectWindow() //Allows to deflect/destroy projectiles at any time during attack animation
+    {
+        while (player.Status.IsAttacking == true)
+        {
+            Collider2D[] targetsHit = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, projectilesLayer);
+            foreach(Collider2D target in targetsHit)
+            {
+                IDamageable projectile = target.GetComponent<IDamageable>();
+                projectile.TakeDamage(1, Vector2.zero, transform.position);
+                SoundManager.Instance.PlaySound(player.Sounds.PlayerAttackHit.Audio, transform.position);
+            }
+            yield return new WaitForFixedUpdate();
+        }
     }
 
     void PrepareComboAttack()
@@ -89,14 +108,16 @@ public class PlayerAttack : MonoBehaviour
                 damageFloatingText += player.Stats.AttackPower;
 
                 player.Sounds.PlayerAttackHit.Play(transform.position);
-                player.Status.IsAttacking = false;
+                CancelInvoke(nameof(EndAttack));
+                EndAttack();
                 Debug.Log("COMBO");
             }
             if (hitEnemy) FloatingCombatText.Instance.SpawnDealedDamageText(damageFloatingText, target.transform.position);
         }
         if (hitEnemy && !isCombo) player.Combo.StartComboMeter();
-        player.Status.IsAttacking = false;
     }
+
+    public void EndAttack() => player.Status.IsAttacking = false;
 
     void OnDrawGizmosSelected()
     {

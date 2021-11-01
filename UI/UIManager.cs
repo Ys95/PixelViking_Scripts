@@ -153,6 +153,7 @@ public class UIManager : MonoBehaviour
     public void OnOpenInventory()
     {
         if (inMainMenu) return;
+        if (deathScreen.IsOpen) return;
 
         if (!isInventoryWindowOpen)
         {
@@ -173,6 +174,8 @@ public class UIManager : MonoBehaviour
 
     public void OnESC()
     {
+        if (deathScreen.IsOpen) return;
+
         if (isInventoryWindowOpen)
         {
             OpenInventory(false);

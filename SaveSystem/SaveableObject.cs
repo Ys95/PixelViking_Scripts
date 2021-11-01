@@ -57,12 +57,11 @@ public abstract class SaveableObjectData
 
     public abstract void LoadAddinational(Transform parents, GameObject obj);
 
-    public SaveableObjectData(GameObject obj, string id, PrefabType type)
+    public SaveableObjectData(GameObject obj, Vector2 worldPos, string id, PrefabType type)
     {
         objectType = type;
-        worldPosX = obj.transform.position.x;
-        worldPosY = obj.transform.position.y;
-        worldPosZ = obj.transform.position.z;
+        worldPosX = worldPos.x;
+        worldPosY = worldPos.y;
         prefabId = id;
     }
 }

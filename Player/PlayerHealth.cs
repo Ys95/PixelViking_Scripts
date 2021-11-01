@@ -34,7 +34,6 @@ public class PlayerHealth : MonoBehaviour, IDamageable
     public void HealDamage(int amount)
     {
         player.Stats.AddHealth(amount);
-        player.Sounds.PlayerHealing.Play(transform.position);
         FloatingCombatText.Instance.SpawnHealedDamageText(amount, transform.position);
     }
 

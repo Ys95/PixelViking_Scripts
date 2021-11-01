@@ -22,7 +22,7 @@ public class ItemDetailsWindow : MonoBehaviour
     {
         canvasGroup.alpha = 0f;
         canvasGroup.interactable = false;
-        canvasGroup.blocksRaycasts = true;
+        canvasGroup.blocksRaycasts = false;
         displayedItem = null;
     }
 
@@ -49,6 +49,7 @@ public class ItemDetailsWindow : MonoBehaviour
 
             canvasGroup.alpha = 1f;
             canvasGroup.interactable = true;
+            canvasGroup.blocksRaycasts = true;
 
             itemIcon.sprite = item.Icon;
             itemName.text = item.DisplayName;
@@ -63,6 +64,7 @@ public class ItemDetailsWindow : MonoBehaviour
 
         canvasGroup.alpha = 0f;
         canvasGroup.interactable = false;
+        canvasGroup.blocksRaycasts = false;
     }
 
     public void UseButtonClick()

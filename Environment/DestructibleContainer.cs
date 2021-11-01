@@ -8,13 +8,12 @@ public class DestructibleContainer : MonoBehaviour, IDamageable
     [SerializeField] ParticleSystem destroyParticle;
     [SerializeField] LootDropper lootDropper;
 
-    public void TakeDamage(int damage) => Destroy();
-
     void Destroy()
     {
         destroyParticle.transform.parent = null;
         destroyParticle.Play();
         lootDropper.DropLoot();
+
         Destroy(gameObject);
     }
 

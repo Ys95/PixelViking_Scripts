@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerGrab : MonoBehaviour
 {
@@ -18,6 +19,9 @@ public class PlayerGrab : MonoBehaviour
     Rigidbody2D grabbedRb;
     GrabableChain grabbedObject;
     float inputAxisX;
+
+    public delegate void OnPlayerGrab(bool grabbed);
+    public static event OnPlayerGrab PlayerIsGrabbing;
 
     public float InputAxisX { get => inputAxisX; set => inputAxisX = value; }
 
@@ -85,6 +89,7 @@ public class PlayerGrab : MonoBehaviour
         playerRb.AddForce(addedVelocity, ForceMode2D.Impulse);
     }
 
+
     void GrabMode(bool activate)
     {
         if (activate)
@@ -92,8 +97,10 @@ public class PlayerGrab : MonoBehaviour
             player.Input.ActivateGrabActionMap();
             player.Status.IsGrabing = true;
             player.Animations.TriggerGrab(true);
+            PlayerIsGrabbing?.Invoke(true);
             return;
         }
+        PlayerIsGrabbing?.Invoke(false);
         player.Status.IsGrabing = false;
         player.Animations.TriggerGrab(false);
         player.Input.ActivateGroundActionMap();
@@ -131,7 +138,7 @@ public class PlayerGrab : MonoBehaviour
         }
     }
 
-    void OnDestroy()
+    void OnDisable()
     {
         PlayerHealth.PlayerDamaged -= StopGrabing;
     }

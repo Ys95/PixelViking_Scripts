@@ -3,7 +3,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "item_consumable_attackbuff_itemname", menuName = "Inventory System/Items/Consumable/AttackBuff")]
 public class AttackBuffItem : ConsumableItem
 {
-    [SerializeField] int damageBonus;
+    [SerializeField] private int damageBonus;
 
     public int DamageBonus { get => damageBonus; }
 

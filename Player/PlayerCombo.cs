@@ -53,7 +53,7 @@ public class PlayerCombo : MonoBehaviour
         StartCoroutine(fillMeterCoroutine);
     }
 
-    void InterruptCombo()
+    public void InterruptCombo()
     {
         comboMeter = 0;
         StopCoroutine(fillMeterCoroutine);
@@ -64,7 +64,7 @@ public class PlayerCombo : MonoBehaviour
     {
         particles.Play();
         comboReady = false;
-        comboMeter = 0;
+        InterruptCombo();
     }
 
     IEnumerator FillMeter()

@@ -22,6 +22,7 @@ public class OptionsMenu : MonoBehaviour
 
         public void UpdateText()
         {
+            if (value == null) return;
             value.text = slider.value.ToString();
         }
     }

@@ -8,7 +8,8 @@ public class SaveEnemy : SaveableObject
 
     public override SaveableObjectData CreateSaveData()
     {
-        EnemyData data = new EnemyData(gameObject, PrefabId, objectType, patrolPoints);
+        Vector2 worldPos = transform.position;
+        EnemyData data = new EnemyData(gameObject, worldPos, PrefabId, objectType, patrolPoints);
 
         return data;
     }
@@ -51,7 +52,7 @@ public class EnemyData : SaveableObjectData
         }
     }
 
-    public EnemyData(GameObject obj, string id, PrefabType type, Transform[] patrol) : base(obj, id, type)
+    public EnemyData(GameObject obj, Vector2 worldPos, string id, PrefabType type, Transform[] patrol) : base(obj, worldPos, id, type)
     {
         patrolPoints = new PatrolPoint[patrol.Length];
 
