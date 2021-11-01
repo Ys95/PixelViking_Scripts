@@ -1,0 +1,1350 @@
+{
+    "isEmpty": false,
+    "fileName": "test",
+    "fileCreationDate": "30.10.2021 02:01:53",
+    "levelId": 3,
+    "playerData": {
+        "prefabId": "Player",
+        "objectType": 2,
+        "worldPosX": 133.6903076171875,
+        "worldPosY": 7.8028364181518559,
+        "worldPosZ": 0.0,
+        "level": 3,
+        "health": 25,
+        "inventory": {
+            "itemsId": [
+                "21101918500864",
+                "21102003353895",
+                "21101021551268",
+                "21102003354996",
+                "21102003355240",
+                "21091518353938",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "itemsAmounts": [
+                1,
+                1,
+                3,
+                3,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "gold": 3,
+            "inventorySize": 16
+        }
+    },
+    "interactableData": [
+        {
+            "prefabId": "21101922404980",
+            "objectType": 3,
+            "worldPosX": 4.485349655151367,
+            "worldPosY": 0.03241574764251709,
+            "worldPosZ": 0.0,
+            "wasInteractedWith": true
+        },
+        {
+            "prefabId": "21102120004925",
+            "objectType": 3,
+            "worldPosX": 143.7796173095703,
+            "worldPosY": 7.019264221191406,
+            "worldPosZ": 0.0,
+            "wasInteractedWith": false
+        },
+        {
+            "prefabId": "21091918583791",
+            "objectType": 3,
+            "worldPosX": 73.0,
+            "worldPosY": 17.0,
+            "worldPosZ": 0.0,
+            "wasInteractedWith": false
+        },
+        {
+            "prefabId": "21091918583791",
+            "objectType": 3,
+            "worldPosX": 71.5,
+            "worldPosY": 17.0,
+            "worldPosZ": 0.0,
+            "wasInteractedWith": false
+        },
+        {
+            "prefabId": "21101922404980",
+            "objectType": 3,
+            "worldPosX": 122.48558044433594,
+            "worldPosY": 6.992936134338379,
+            "worldPosZ": 0.0,
+            "wasInteractedWith": true
+        },
+        {
+            "prefabId": "21101922404980",
+            "objectType": 3,
+            "worldPosX": 79.5,
+            "worldPosY": 17.0,
+            "worldPosZ": 0.0,
+            "wasInteractedWith": false
+        },
+        {
+            "prefabId": "21091918583791",
+            "objectType": 3,
+            "worldPosX": 74.5,
+            "worldPosY": 17.0,
+            "worldPosZ": 0.0,
+            "wasInteractedWith": false
+        },
+        {
+            "prefabId": "21101922404980",
+            "objectType": 3,
+            "worldPosX": 229.5,
+            "worldPosY": 24.0,
+            "worldPosZ": 0.0,
+            "wasInteractedWith": false
+        },
+        {
+            "prefabId": "21101922404980",
+            "objectType": 3,
+            "worldPosX": 260.5,
+            "worldPosY": -7.0,
+            "worldPosZ": 0.0,
+            "wasInteractedWith": false
+        },
+        {
+            "prefabId": "21101922404980",
+            "objectType": 3,
+            "worldPosX": 275.5,
+            "worldPosY": 7.0,
+            "worldPosZ": 0.0,
+            "wasInteractedWith": false
+        },
+        {
+            "prefabId": "21102120004925",
+            "objectType": 3,
+            "worldPosX": 268.5,
+            "worldPosY": 7.0,
+            "worldPosZ": 0.0,
+            "wasInteractedWith": false
+        },
+        {
+            "prefabId": "21102120004925",
+            "objectType": 3,
+            "worldPosX": 267.0,
+            "worldPosY": 7.0,
+            "worldPosZ": 0.0,
+            "wasInteractedWith": false
+        },
+        {
+            "prefabId": "21102123494827",
+            "objectType": 3,
+            "worldPosX": 464.5,
+            "worldPosY": -10.0,
+            "worldPosZ": 0.0,
+            "wasInteractedWith": false
+        },
+        {
+            "prefabId": "21101922404980",
+            "objectType": 3,
+            "worldPosX": 419.5,
+            "worldPosY": -10.0,
+            "worldPosZ": 0.0,
+            "wasInteractedWith": false
+        },
+        {
+            "prefabId": "21091918583791",
+            "objectType": 3,
+            "worldPosX": 320.5,
+            "worldPosY": 9.0,
+            "worldPosZ": 0.0,
+            "wasInteractedWith": false
+        },
+        {
+            "prefabId": "21102723090783",
+            "objectType": 3,
+            "worldPosX": 406.6656494140625,
+            "worldPosY": -6.829999923706055,
+            "worldPosZ": 0.0,
+            "wasInteractedWith": false
+        },
+        {
+            "prefabId": "21102723090783",
+            "objectType": 3,
+            "worldPosX": 249.99998474121095,
+            "worldPosY": -6.820000171661377,
+            "worldPosZ": 0.0,
+            "wasInteractedWith": false
+        },
+        {
+            "prefabId": "21102723090783",
+            "objectType": 3,
+            "worldPosX": 134.0,
+            "worldPosY": 7.199999809265137,
+            "worldPosZ": 0.0,
+            "wasInteractedWith": true
+        }
+    ],
+    "destructiblesData": [
+        {
+            "prefabId": "21100521063904",
+            "objectType": 4,
+            "worldPosX": 74.5,
+            "worldPosY": 25.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21100521063904",
+            "objectType": 4,
+            "worldPosX": 75.0,
+            "worldPosY": 24.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21100521063904",
+            "objectType": 4,
+            "worldPosX": 74.0,
+            "worldPosY": 24.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21091918583382",
+            "objectType": 4,
+            "worldPosX": 169.63705444335938,
+            "worldPosY": 6.521766662597656,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21091918583382",
+            "objectType": 4,
+            "worldPosX": 220.0,
+            "worldPosY": -7.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21091918583382",
+            "objectType": 4,
+            "worldPosX": 333.82000732421877,
+            "worldPosY": 11.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102216090281",
+            "objectType": 4,
+            "worldPosX": 337.82000732421877,
+            "worldPosY": 10.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102216090281",
+            "objectType": 4,
+            "worldPosX": 335.82000732421877,
+            "worldPosY": 10.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102216090281",
+            "objectType": 4,
+            "worldPosX": 333.82000732421877,
+            "worldPosY": 10.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21091918583382",
+            "objectType": 4,
+            "worldPosX": 331.5,
+            "worldPosY": -6.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21091918583382",
+            "objectType": 4,
+            "worldPosX": 331.5,
+            "worldPosY": -7.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21091918583382",
+            "objectType": 4,
+            "worldPosX": 282.5,
+            "worldPosY": -6.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21091918583382",
+            "objectType": 4,
+            "worldPosX": 291.5,
+            "worldPosY": -6.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102216090281",
+            "objectType": 4,
+            "worldPosX": 181.0,
+            "worldPosY": 3.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102216090281",
+            "objectType": 4,
+            "worldPosX": 161.5,
+            "worldPosY": 11.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102216090281",
+            "objectType": 4,
+            "worldPosX": 198.5,
+            "worldPosY": 12.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21091918583382",
+            "objectType": 4,
+            "worldPosX": 199.5,
+            "worldPosY": 11.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102216090281",
+            "objectType": 4,
+            "worldPosX": 198.5,
+            "worldPosY": 11.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102216090281",
+            "objectType": 4,
+            "worldPosX": 197.5,
+            "worldPosY": 11.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102216090281",
+            "objectType": 4,
+            "worldPosX": 149.5,
+            "worldPosY": 19.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102216090281",
+            "objectType": 4,
+            "worldPosX": 149.5,
+            "worldPosY": 18.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102216090281",
+            "objectType": 4,
+            "worldPosX": 149.5,
+            "worldPosY": 17.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21091918583382",
+            "objectType": 4,
+            "worldPosX": 224.75,
+            "worldPosY": 22.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102216090281",
+            "objectType": 4,
+            "worldPosX": 224.75,
+            "worldPosY": 21.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102216090281",
+            "objectType": 4,
+            "worldPosX": 220.75,
+            "worldPosY": 19.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21091918583382",
+            "objectType": 4,
+            "worldPosX": 345.0,
+            "worldPosY": 4.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102216090281",
+            "objectType": 4,
+            "worldPosX": 229.5,
+            "worldPosY": -7.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102216090281",
+            "objectType": 4,
+            "worldPosX": 229.5,
+            "worldPosY": -6.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21091918583382",
+            "objectType": 4,
+            "worldPosX": 234.5,
+            "worldPosY": -6.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21091918583382",
+            "objectType": 4,
+            "worldPosX": 234.5,
+            "worldPosY": -7.5,
+            "worldPosZ": 0.0
+        }
+    ],
+    "pickupsData": [
+        {
+            "prefabId": "21102201445830",
+            "objectType": 1,
+            "worldPosX": 71.58502197265625,
+            "worldPosY": 24.76905059814453,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445789",
+            "objectType": 1,
+            "worldPosX": 155.0,
+            "worldPosY": 9.90000057220459,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445811",
+            "objectType": 1,
+            "worldPosX": 145.5,
+            "worldPosY": 18.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445821",
+            "objectType": 1,
+            "worldPosX": 144.5,
+            "worldPosY": 18.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445889",
+            "objectType": 1,
+            "worldPosX": 143.5,
+            "worldPosY": 18.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445821",
+            "objectType": 1,
+            "worldPosX": 76.9000015258789,
+            "worldPosY": 16.799999237060548,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 70.0,
+            "worldPosY": 17.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445760",
+            "objectType": 1,
+            "worldPosX": 69.0,
+            "worldPosY": 17.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445821",
+            "objectType": 1,
+            "worldPosX": 75.9000015258789,
+            "worldPosY": 16.799999237060548,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445821",
+            "objectType": 1,
+            "worldPosX": 77.9000015258789,
+            "worldPosY": 16.799999237060548,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445830",
+            "objectType": 1,
+            "worldPosX": 204.18719482421876,
+            "worldPosY": 3.031010627746582,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 309.9000244140625,
+            "worldPosY": 9.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 308.4000244140625,
+            "worldPosY": 9.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 306.9000244140625,
+            "worldPosY": 9.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 305.4000244140625,
+            "worldPosY": 9.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 303.9000244140625,
+            "worldPosY": 9.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445889",
+            "objectType": 1,
+            "worldPosX": 231.33216857910157,
+            "worldPosY": -3.3997962474823,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445889",
+            "objectType": 1,
+            "worldPosX": 232.91000366210938,
+            "worldPosY": 6.780000686645508,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445889",
+            "objectType": 1,
+            "worldPosX": 231.5806884765625,
+            "worldPosY": 12.94234848022461,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445830",
+            "objectType": 1,
+            "worldPosX": 274.0,
+            "worldPosY": 6.800000190734863,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445830",
+            "objectType": 1,
+            "worldPosX": 273.0,
+            "worldPosY": 6.800000190734863,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445889",
+            "objectType": 1,
+            "worldPosX": 272.0,
+            "worldPosY": 6.800000190734863,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445760",
+            "objectType": 1,
+            "worldPosX": 270.79998779296877,
+            "worldPosY": 6.800000190734863,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445760",
+            "objectType": 1,
+            "worldPosX": 269.79998779296877,
+            "worldPosY": 6.800000190734863,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445859",
+            "objectType": 1,
+            "worldPosX": 236.92431640625,
+            "worldPosY": 24.76906394958496,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445821",
+            "objectType": 1,
+            "worldPosX": 216.8000030517578,
+            "worldPosY": -7.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445821",
+            "objectType": 1,
+            "worldPosX": 405.1099853515625,
+            "worldPosY": -7.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445830",
+            "objectType": 1,
+            "worldPosX": 403.6099853515625,
+            "worldPosY": -7.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445830",
+            "objectType": 1,
+            "worldPosX": 402.1099853515625,
+            "worldPosY": -7.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445830",
+            "objectType": 1,
+            "worldPosX": 400.6099853515625,
+            "worldPosY": -7.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445889",
+            "objectType": 1,
+            "worldPosX": 399.1099853515625,
+            "worldPosY": -7.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445889",
+            "objectType": 1,
+            "worldPosX": 397.6099853515625,
+            "worldPosY": -7.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445889",
+            "objectType": 1,
+            "worldPosX": 396.1099853515625,
+            "worldPosY": -7.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445811",
+            "objectType": 1,
+            "worldPosX": 394.6099853515625,
+            "worldPosY": -7.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445879",
+            "objectType": 1,
+            "worldPosX": 416.60430908203127,
+            "worldPosY": -10.031879425048829,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445859",
+            "objectType": 1,
+            "worldPosX": 334.239990234375,
+            "worldPosY": 1.6799999475479127,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445830",
+            "objectType": 1,
+            "worldPosX": 322.0,
+            "worldPosY": 9.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445811",
+            "objectType": 1,
+            "worldPosX": 304.5,
+            "worldPosY": 24.80000114440918,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445868",
+            "objectType": 1,
+            "worldPosX": 257.56097412109377,
+            "worldPosY": 19.90876007080078,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 387.5,
+            "worldPosY": -1.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 372.38958740234377,
+            "worldPosY": -0.672972559928894,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 363.0,
+            "worldPosY": -2.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 292.0,
+            "worldPosY": 19.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 97.5,
+            "worldPosY": 29.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 97.5,
+            "worldPosY": 27.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 97.5,
+            "worldPosY": 26.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 290.5,
+            "worldPosY": 19.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 289.0,
+            "worldPosY": 19.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 238.5,
+            "worldPosY": 18.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 238.5,
+            "worldPosY": 16.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 241.5,
+            "worldPosY": 2.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 241.5,
+            "worldPosY": 0.9999998807907105,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 232.0,
+            "worldPosY": 0.49999988079071047,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 232.0,
+            "worldPosY": -1.0000001192092896,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 206.5,
+            "worldPosY": 11.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 206.5,
+            "worldPosY": 10.0,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 126.0,
+            "worldPosY": 24.5,
+            "worldPosZ": 0.0
+        },
+        {
+            "prefabId": "21102201445770",
+            "objectType": 1,
+            "worldPosX": 124.5,
+            "worldPosY": 24.5,
+            "worldPosZ": 0.0
+        }
+    ],
+    "enemyData": [
+        {
+            "prefabId": "21102120144513",
+            "objectType": 0,
+            "worldPosX": -6.769999980926514,
+            "worldPosY": -0.009999871253967286,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -5.635000705718994,
+                    "localPosY": -0.5
+                },
+                {
+                    "localPosX": 2.7700002193450929,
+                    "localPosY": -0.625
+                }
+            ]
+        },
+        {
+            "prefabId": "21102120144513",
+            "objectType": 0,
+            "worldPosX": 113.5,
+            "worldPosY": 19.200000762939454,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -1.4349970817565919,
+                    "localPosY": -0.5
+                },
+                {
+                    "localPosX": 2.570000171661377,
+                    "localPosY": -0.625
+                }
+            ]
+        },
+        {
+            "prefabId": "21101800495093",
+            "objectType": 0,
+            "worldPosX": 104.0,
+            "worldPosY": 18.200000762939454,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -6.035003185272217,
+                    "localPosY": -0.5
+                },
+                {
+                    "localPosX": 5.7699971199035648,
+                    "localPosY": -0.625
+                }
+            ]
+        },
+        {
+            "prefabId": "21102120594866",
+            "objectType": 0,
+            "worldPosX": 94.80226135253906,
+            "worldPosY": 19.316390991210939,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -16.399999618530275,
+                    "localPosY": 8.130000114440918
+                },
+                {
+                    "localPosX": 3.3299999237060549,
+                    "localPosY": 0.7099999785423279
+                }
+            ]
+        },
+        {
+            "prefabId": "21102121280684",
+            "objectType": 0,
+            "worldPosX": 148.14743041992188,
+            "worldPosY": 7.067822456359863,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -3.485004425048828,
+                    "localPosY": -0.5
+                },
+                {
+                    "localPosX": 0.7699928283691406,
+                    "localPosY": -0.625
+                }
+            ]
+        },
+        {
+            "prefabId": "21102121280684",
+            "objectType": 0,
+            "worldPosX": 200.0348663330078,
+            "worldPosY": 3.155567169189453,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -4.685001373291016,
+                    "localPosY": -0.5
+                },
+                {
+                    "localPosX": 3.8699989318847658,
+                    "localPosY": -0.625
+                }
+            ]
+        },
+        {
+            "prefabId": "21102121280684",
+            "objectType": 0,
+            "worldPosX": 187.965576171875,
+            "worldPosY": 3.0748863220214845,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -4.685001373291016,
+                    "localPosY": -0.5
+                },
+                {
+                    "localPosX": 3.8699989318847658,
+                    "localPosY": -0.625
+                }
+            ]
+        },
+        {
+            "prefabId": "21101800495093",
+            "objectType": 0,
+            "worldPosX": 212.250244140625,
+            "worldPosY": 19.121593475341798,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -3.7350001335144045,
+                    "localPosY": -0.5
+                },
+                {
+                    "localPosX": 4.770012378692627,
+                    "localPosY": -0.625
+                }
+            ]
+        },
+        {
+            "prefabId": "21102121280684",
+            "objectType": 0,
+            "worldPosX": 254.1853485107422,
+            "worldPosY": -6.830881595611572,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -3.9350013732910158,
+                    "localPosY": -0.5
+                },
+                {
+                    "localPosX": 3.8699989318847658,
+                    "localPosY": -0.625
+                }
+            ]
+        },
+        {
+            "prefabId": "21102121280684",
+            "objectType": 0,
+            "worldPosX": 245.38487243652345,
+            "worldPosY": -6.830881595611572,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -3.6850013732910158,
+                    "localPosY": -0.5
+                },
+                {
+                    "localPosX": 3.8699989318847658,
+                    "localPosY": -0.625
+                }
+            ]
+        },
+        {
+            "prefabId": "21102120144513",
+            "objectType": 0,
+            "worldPosX": 403.84002685546877,
+            "worldPosY": -6.840000152587891,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -10.359999656677246,
+                    "localPosY": -0.5
+                },
+                {
+                    "localPosX": 5.300000190734863,
+                    "localPosY": -0.625
+                }
+            ]
+        },
+        {
+            "prefabId": "21101800495725",
+            "objectType": 0,
+            "worldPosX": 324.279296875,
+            "worldPosY": -2.9261560440063478,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -6.319999694824219,
+                    "localPosY": -2.759999990463257
+                },
+                {
+                    "localPosX": 4.690000057220459,
+                    "localPosY": -3.2799999713897707
+                }
+            ]
+        },
+        {
+            "prefabId": "21101800495093",
+            "objectType": 0,
+            "worldPosX": 449.8800048828125,
+            "worldPosY": -9.850000381469727,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -26.735000610351564,
+                    "localPosY": -0.5
+                },
+                {
+                    "localPosX": 11.569999694824219,
+                    "localPosY": -0.625
+                }
+            ]
+        },
+        {
+            "prefabId": "21102121275705",
+            "objectType": 0,
+            "worldPosX": 449.21478271484377,
+            "worldPosY": -7.006982803344727,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -8.210000038146973,
+                    "localPosY": -0.30000001192092898
+                },
+                {
+                    "localPosX": 9.100000381469727,
+                    "localPosY": -0.8500000238418579
+                }
+            ]
+        },
+        {
+            "prefabId": "21102120594866",
+            "objectType": 0,
+            "worldPosX": 432.225341796875,
+            "worldPosY": -7.109633445739746,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -8.109999656677246,
+                    "localPosY": -1.2400000095367432
+                },
+                {
+                    "localPosX": 6.730000019073486,
+                    "localPosY": 3.2799999713897707
+                }
+            ]
+        },
+        {
+            "prefabId": "21101800495093",
+            "objectType": 0,
+            "worldPosX": 324.957763671875,
+            "worldPosY": 9.145074844360352,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -2.4850001335144045,
+                    "localPosY": -0.5
+                },
+                {
+                    "localPosX": 3.570000171661377,
+                    "localPosY": -0.625
+                }
+            ]
+        },
+        {
+            "prefabId": "21102120594866",
+            "objectType": 0,
+            "worldPosX": 287.82110595703127,
+            "worldPosY": 8.617694854736329,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -8.034988403320313,
+                    "localPosY": 2.0
+                },
+                {
+                    "localPosX": 8.430000305175782,
+                    "localPosY": -0.06999999284744263
+                }
+            ]
+        },
+        {
+            "prefabId": "21101800495725",
+            "objectType": 0,
+            "worldPosX": 248.5855255126953,
+            "worldPosY": 1.36127507686615,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": 5.489999771118164,
+                    "localPosY": 18.399999618530275
+                },
+                {
+                    "localPosX": -3.3355321884155275,
+                    "localPosY": 11.888725280761719
+                }
+            ]
+        },
+        {
+            "prefabId": "21101800495093",
+            "objectType": 0,
+            "worldPosX": 270.3726806640625,
+            "worldPosY": 12.205575942993164,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -2.7350001335144045,
+                    "localPosY": -0.5
+                },
+                {
+                    "localPosX": 3.270012378692627,
+                    "localPosY": -0.625
+                }
+            ]
+        },
+        {
+            "prefabId": "21102120144513",
+            "objectType": 0,
+            "worldPosX": 223.68214416503907,
+            "worldPosY": -6.90632438659668,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -2.7350001335144045,
+                    "localPosY": -0.6999998092651367
+                },
+                {
+                    "localPosX": 4.769996643066406,
+                    "localPosY": -0.625
+                }
+            ]
+        },
+        {
+            "prefabId": "21101800495093",
+            "objectType": 0,
+            "worldPosX": 266.603759765625,
+            "worldPosY": -6.905290126800537,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -4.735000133514404,
+                    "localPosY": -0.5
+                },
+                {
+                    "localPosX": 1.969994068145752,
+                    "localPosY": -0.625
+                }
+            ]
+        },
+        {
+            "prefabId": "21102120144513",
+            "objectType": 0,
+            "worldPosX": 435.93878173828127,
+            "worldPosY": -9.862357139587403,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -2.7350001335144045,
+                    "localPosY": -0.5
+                },
+                {
+                    "localPosX": 6.070000171661377,
+                    "localPosY": -0.625
+                }
+            ]
+        },
+        {
+            "prefabId": "21102120144513",
+            "objectType": 0,
+            "worldPosX": 424.8408203125,
+            "worldPosY": -9.862357139587403,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -2.7350001335144045,
+                    "localPosY": -0.5
+                },
+                {
+                    "localPosX": 6.070000171661377,
+                    "localPosY": -0.625
+                }
+            ]
+        },
+        {
+            "prefabId": "21101800495093",
+            "objectType": 0,
+            "worldPosX": 173.39710998535157,
+            "worldPosY": 7.186615943908691,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -1.9850001335144044,
+                    "localPosY": -0.5
+                },
+                {
+                    "localPosX": 6.1028828620910648,
+                    "localPosY": -2.686615467071533
+                }
+            ]
+        },
+        {
+            "prefabId": "21101800495725",
+            "objectType": 0,
+            "worldPosX": 181.9595947265625,
+            "worldPosY": 17.365371704101564,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -8.959600448608399,
+                    "localPosY": -1.6153736114501954
+                },
+                {
+                    "localPosX": 6.540398597717285,
+                    "localPosY": -1.865373134613037
+                }
+            ]
+        },
+        {
+            "prefabId": "21101800495725",
+            "objectType": 0,
+            "worldPosX": 135.3181610107422,
+            "worldPosY": 19.378185272216798,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -5.818166732788086,
+                    "localPosY": -1.878183364868164
+                },
+                {
+                    "localPosX": 5.931832313537598,
+                    "localPosY": -1.8781847953796387
+                }
+            ]
+        },
+        {
+            "prefabId": "21102120144513",
+            "objectType": 0,
+            "worldPosX": 320.7125244140625,
+            "worldPosY": -6.889612197875977,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -2.7125086784362795,
+                    "localPosY": -0.6103878021240234
+                },
+                {
+                    "localPosX": 6.287498950958252,
+                    "localPosY": -0.6103878021240234
+                }
+            ]
+        },
+        {
+            "prefabId": "21101800495725",
+            "objectType": 0,
+            "worldPosX": 332.37371826171877,
+            "worldPosY": 15.269375801086426,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -8.873708724975586,
+                    "localPosY": -4.519376754760742
+                },
+                {
+                    "localPosX": 9.126290321350098,
+                    "localPosY": -3.769376277923584
+                }
+            ]
+        },
+        {
+            "prefabId": "21101800495725",
+            "objectType": 0,
+            "worldPosX": 281.3251953125,
+            "worldPosY": -3.816239356994629,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -7.825185775756836,
+                    "localPosY": -1.9337596893310547
+                },
+                {
+                    "localPosX": 30.92481231689453,
+                    "localPosY": -1.933760404586792
+                }
+            ]
+        },
+        {
+            "prefabId": "21101800495725",
+            "objectType": 0,
+            "worldPosX": 252.6339569091797,
+            "worldPosY": -0.543152928352356,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -7.133962631225586,
+                    "localPosY": -0.9568462371826172
+                },
+                {
+                    "localPosX": 5.366036415100098,
+                    "localPosY": -1.4568471908569337
+                }
+            ]
+        },
+        {
+            "prefabId": "21101800495725",
+            "objectType": 0,
+            "worldPosX": 251.31028747558595,
+            "worldPosY": 9.945540428161621,
+            "worldPosZ": 0.0,
+            "patrolPoints": [
+                {
+                    "localPosX": -7.310277938842773,
+                    "localPosY": -0.9455394744873047
+                },
+                {
+                    "localPosX": 5.68972110748291,
+                    "localPosY": -0.9455409049987793
+                }
+            ]
+        }
+    ]
+}
