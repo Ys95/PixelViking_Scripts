@@ -65,19 +65,6 @@ public class SoundManager : MonoBehaviour
         soundObject.Play(clip, volume);
     }
 
-    public void PlaySound(SoundCategory category, SoundEffect soundEffect, AudioSource audioSource)
-    {
-        AudioClipAsset clip = Databases.Instance.AudioDB.FindAudioClip(category, soundEffect);
-
-        if (clip != null)
-        {
-            float volume = clip.Volume * globalSoundEffectsVolume;
-            audioSource.volume = 0f;
-            audioSource.pitch = clip.Pitch;
-            audioSource.PlayOneShot(clip.Audio);
-        }
-    }
-
     void MuffleSound()
     {
         soundMuffler.enabled = true;
