@@ -1,7 +1,11 @@
 ![cover2](https://user-images.githubusercontent.com/80332947/139739956-76ee3fbf-00a3-408a-9600-470ab17f39b8.png)
 
+# About
+
+2D Pixelart platformer made in Unity. Makes use of URP (post processing, 2D lights), Cinemachine and A* pathfinding project. All sprites and UI elements were drawn in [Aseprite](https://www.aseprite.org). Sound effect were done using [Chiptone](https://sfbgames.itch.io/chiptone). Input was handled by the new unity input system. 
 
 # Links
+
 
 [Itch.io (Playable in browser)](https://ys95.itch.io/pixelviking)
 
@@ -22,7 +26,7 @@ Player can collect variety of items. Each item has its own use - keys can be use
 
 ## Save system
 
-Each saveable object contains 2 basic informations: object ID and world position. Depending on object type, addinational data might need to be stored, for example player needs to have his inventory saved. 
+Each saveable object contains 2 basic informations: object ID and world position. Depending on object type, addinational data might need to be stored, for example player needs to have his inventory saved. When player loads game from save file, every saveable objects gets destroyed and then only those present in save file will get restored. (Example: player killed an enemy. Enemy object gets destroyed and wont be saved in save file when player saves the game). Restoring objects works by getting prefab from prefabs database using id and then instantiating and setting it up.
 
 ### Important classes:
 * [SaveableObject](https://github.com/Ys95/PixelViking_Scripts/blob/main/SaveSystem/SaveableObject.cs) - Abstract class defining basic data that needs to be saved as well as methods for creating it.
@@ -30,7 +34,7 @@ Each saveable object contains 2 basic informations: object ID and world position
 * [SaveSystem](https://github.com/Ys95/PixelViking_Scripts/blob/main/StaticAndSingletons/SaveSystem.cs) - Singleton used to create and load save files.
 * [PrefabsDatabase](https://github.com/Ys95/PixelViking_Scripts/blob/main/Databases/PrefabsDatabase.cs) - Used to fetch prefabs via their id so they can be instantiated when game gets loaded.
 
-Example save file can be found [here.]()
+Example save file can be found [here.](https://github.com/Ys95/PixelViking_Scripts/blob/main/ExampleSaveFile.save)
 
 ## Enemies
 
@@ -48,8 +52,9 @@ Pathfinding is handled by A* pathfinding plugin.
 ## Other important classes
 
 * [CharacterMovement](https://github.com/Ys95/PixelViking_Scripts/blob/main/Character/CharacterMovement.cs) - Used by enemies and players, defines how character will move.
-* [ObjectPool](https://github.com/Ys95/PixelViking_Scripts/blob/main/StaticAndSingletons/ObjectPool.cs) - Implementation of object pooling. Important for classes that otherwise would end up instantiating and destroying a large amount of objects, for example [FloatingCombatText](https://github.com/Ys95/PixelViking_Scripts/blob/main/StaticAndSingletons/SoundManager.cs) or [SoundManager](https://github.com/Ys95/PixelViking_Scripts/blob/main/StaticAndSingletons/SoundManager.cs). 
-* [PrefabMaker](https://github.com/Ys95/PixelViking_Scripts/blob/main/Editor/PrefabMaker.cs) - Editor script used together with [PickupScript](https://github.com/Ys95/PixelViking_Scripts/blob/main/Environment/PickupScript.cs) to automatise creating Pickups prefabs from item objects.
+* [ObjectPool](https://github.com/Ys95/PixelViking_Scripts/blob/main/StaticAndSingletons/ObjectPool.cs) - Implementation of object pooling. Important for classes that otherwise would end up instantiating and destroying a large amount of objects, for example [FloatingCombatText](https://github.com/Ys95/PixelViking_Scripts/blob/main/StaticAndSingletons/FloatingCombatText.cs) or [SoundManager](https://github.com/Ys95/PixelViking_Scripts/blob/main/StaticAndSingletons/SoundManager.cs). 
+* [LootDropper](https://github.com/Ys95/PixelViking_Scripts/blob/main/Mechanics/LootDropper.cs) - Attached to every object that can drop loot (enemies, containers). Before start of the game (Awake) gets item roll from loot table and instantiates object that becomes active at the right time (for example - when chest gets opened or enemy dies) and can be picked up by player.
+* [PrefabMaker](https://github.com/Ys95/PixelViking_Scripts/blob/main/Editor/PrefabMaker.cs) - Editor script used together with [PickupScript](https://github.com/Ys95/PixelViking_Scripts/blob/main/Environment/PickupScript.cs) to automatise creating pickups prefabs from item objects.
 
 Example of usage:
 
