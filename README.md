@@ -1,10 +1,11 @@
+![cover2](https://user-images.githubusercontent.com/80332947/139739956-76ee3fbf-00a3-408a-9600-470ab17f39b8.png)
+
+
 # Links
 
-[**Itch.io** (Playable in browser)](https://ys95.itch.io/pixelviking)
+[Itch.io (Playable in browser)](https://ys95.itch.io/pixelviking)
 
-# Short gameplay
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tq1-kkjXB2k?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Short gameplay](https://www.youtube.com/watch?v=tq1-kkjXB2k)
 
 # Game features
 
@@ -36,21 +37,23 @@ Example save file can be found [here.]()
 Enemies have simple AI: They will patrol from point A to point B untill they detect player. What happens after player gets detected depends of enemy type - basic enemies will simply chase player until he leaves their detection range(trigger). Ranged enemies will immediately shoot player and will continue to do so as long as player remains in their line of sight(raycast). 
 Pathfinding is handled by A* pathfinding plugin.
 
-[Gifs]
+![Gif](https://github.com/Ys95/PixelViking_Scripts/blob/vidsAndPics/slime_chase.gif?raw=true)
+
+![Gif](https://github.com/Ys95/PixelViking_Scripts/blob/vidsAndPics/beholder_shoot.gif)
 
 ### Important classes:
 * [EnemyBehaviour](https://github.com/Ys95/PixelViking_Scripts/blob/main/Enemies/EnemyBehaviour.cs) - Defines how enemies behave and how they move, handles pathfinding.
 * [RangedEnemyAttack](https://github.com/Ys95/PixelViking_Scripts/blob/main/Enemies/RangedEnemyAttack.cs) - Defines logic of ranged enemies - how they look for target, what they consider a target, their vision range etc.
 
-##Other important classes
+## Other important classes
 
 * [CharacterMovement](https://github.com/Ys95/PixelViking_Scripts/blob/main/Character/CharacterMovement.cs) - Used by enemies and players, defines how character will move.
 * [ObjectPool](https://github.com/Ys95/PixelViking_Scripts/blob/main/StaticAndSingletons/ObjectPool.cs) - Implementation of object pooling. Important for classes that otherwise would end up instantiating and destroying a large amount of objects, for example [FloatingCombatText](https://github.com/Ys95/PixelViking_Scripts/blob/main/StaticAndSingletons/SoundManager.cs) or [SoundManager](https://github.com/Ys95/PixelViking_Scripts/blob/main/StaticAndSingletons/SoundManager.cs). 
-* [PrefabMaker]() - Editor script used together with [PickupScript](https://github.com/Ys95/PixelViking_Scripts/tree/main/Environment) to automatise creating Pickups prefabs from item objects.
+* [PrefabMaker]() - Editor script used together with [PickupScript](https://github.com/Ys95/PixelViking_Scripts/blob/main/Environment/PickupScript.cs) to automatise creating Pickups prefabs from item objects.
 
-[Vid]
+Example of usage:
 
-
+https://user-images.githubusercontent.com/80332947/139739069-3ce07955-460c-4514-8a37-acdc60c90be8.mov
 
 
 
