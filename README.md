@@ -1,7 +1,11 @@
 ![cover2](https://user-images.githubusercontent.com/80332947/139739956-76ee3fbf-00a3-408a-9600-470ab17f39b8.png)
 
+# About
+
+2D Pixelart platformer made in Unity. Makes use of URP (post processing, 2D lights), Cinemachine and A* pathfinding project. All sprites and UI elements were drawn using Aseprite. Input was done using new input system. 
 
 # Links
+
 
 [Itch.io (Playable in browser)](https://ys95.itch.io/pixelviking)
 
