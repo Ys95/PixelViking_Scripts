@@ -30,7 +30,7 @@ Each saveable object contains 2 basic informations: object ID and world position
 * [SaveSystem](https://github.com/Ys95/PixelViking_Scripts/blob/main/StaticAndSingletons/SaveSystem.cs) - Singleton used to create and load save files.
 * [PrefabsDatabase](https://github.com/Ys95/PixelViking_Scripts/blob/main/Databases/PrefabsDatabase.cs) - Used to fetch prefabs via their id so they can be instantiated when game gets loaded.
 
-Example save file can be found [here.]()
+Example save file can be found [here.](https://github.com/Ys95/PixelViking_Scripts/blob/main/ExampleSaveFile.save)
 
 ## Enemies
 
