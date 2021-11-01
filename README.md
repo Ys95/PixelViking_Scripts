@@ -50,7 +50,7 @@ Pathfinding is handled by A* pathfinding plugin.
 * [CharacterMovement](https://github.com/Ys95/PixelViking_Scripts/blob/main/Character/CharacterMovement.cs) - Used by enemies and players, defines how character will move.
 * [ObjectPool](https://github.com/Ys95/PixelViking_Scripts/blob/main/StaticAndSingletons/ObjectPool.cs) - Implementation of object pooling. Important for classes that otherwise would end up instantiating and destroying a large amount of objects, for example [FloatingCombatText](https://github.com/Ys95/PixelViking_Scripts/blob/main/StaticAndSingletons/SoundManager.cs) or [SoundManager](https://github.com/Ys95/PixelViking_Scripts/blob/main/StaticAndSingletons/SoundManager.cs). 
 * [LootDropper](https://github.com/Ys95/PixelViking_Scripts/blob/main/Mechanics/LootDropper.cs) - Attached to every object that can drop loot (enemies, containers). Before start of the game (Awake) gets item roll from loot table and instantiates object that becomes active at the right time (for example - when chest gets opened or enemy dies) and can be picked up by player.
-* [PrefabMaker](https://github.com/Ys95/PixelViking_Scripts/blob/main/Editor/PrefabMaker.cs) - Editor script used together with [PickupScript](https://github.com/Ys95/PixelViking_Scripts/blob/main/Environment/PickupScript.cs) to automatise creating Pickups prefabs from item objects.
+* [PrefabMaker](https://github.com/Ys95/PixelViking_Scripts/blob/main/Editor/PrefabMaker.cs) - Editor script used together with [PickupScript](https://github.com/Ys95/PixelViking_Scripts/blob/main/Environment/PickupScript.cs) to automatise creating pickups prefabs from item objects.
 
 Example of usage:
 
