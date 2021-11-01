@@ -22,7 +22,7 @@ Player can collect variety of items. Each item has its own use - keys can be use
 
 ## Save system
 
-Each saveable object contains 2 basic informations: object ID and world position. Depending on object type, addinational data might need to be stored, for example player needs to have his inventory saved. 
+Each saveable object contains 2 basic informations: object ID and world position. Depending on object type, addinational data might need to be stored, for example player needs to have his inventory saved. When player loads game from save file, every saveable objects gets destroyed and then only those present in save file will get restored (Example: player killed an enemy. Enemy object gets destroyed and wont be saved in save file when player saves the game).
 
 ### Important classes:
 * [SaveableObject](https://github.com/Ys95/PixelViking_Scripts/blob/main/SaveSystem/SaveableObject.cs) - Abstract class defining basic data that needs to be saved as well as methods for creating it.
