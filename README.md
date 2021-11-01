@@ -2,7 +2,7 @@
 
 # About
 
-2D Pixelart platformer made in Unity. Makes use of URP (post processing, 2D lights), Cinemachine and A* pathfinding project. All sprites and UI elements were drawn by me in [Aseprite](https://www.aseprite.org). Sound effect were done using [Chiptone](https://sfbgames.itch.io/chiptone). Input was handled by the new unity input system. 
+2D Pixelart platformer made in Unity. Makes use of URP (post processing, 2D lights), Cinemachine and A* pathfinding project. All sprites and UI elements were drawn in [Aseprite](https://www.aseprite.org). Sound effect were done using [Chiptone](https://sfbgames.itch.io/chiptone). Input was handled by the new unity input system. 
 
 # Links
 
