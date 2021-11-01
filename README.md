@@ -49,7 +49,7 @@ Pathfinding is handled by A* pathfinding plugin.
 
 * [CharacterMovement](https://github.com/Ys95/PixelViking_Scripts/blob/main/Character/CharacterMovement.cs) - Used by enemies and players, defines how character will move.
 * [ObjectPool](https://github.com/Ys95/PixelViking_Scripts/blob/main/StaticAndSingletons/ObjectPool.cs) - Implementation of object pooling. Important for classes that otherwise would end up instantiating and destroying a large amount of objects, for example [FloatingCombatText](https://github.com/Ys95/PixelViking_Scripts/blob/main/StaticAndSingletons/SoundManager.cs) or [SoundManager](https://github.com/Ys95/PixelViking_Scripts/blob/main/StaticAndSingletons/SoundManager.cs). 
-* [PrefabMaker]() - Editor script used together with [PickupScript](https://github.com/Ys95/PixelViking_Scripts/blob/main/Environment/PickupScript.cs) to automatise creating Pickups prefabs from item objects.
+* [PrefabMaker](https://github.com/Ys95/PixelViking_Scripts/blob/main/Editor/PrefabMaker.cs) - Editor script used together with [PickupScript](https://github.com/Ys95/PixelViking_Scripts/blob/main/Environment/PickupScript.cs) to automatise creating Pickups prefabs from item objects.
 
 Example of usage:
 
